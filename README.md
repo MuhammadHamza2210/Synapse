@@ -10,9 +10,11 @@ pinned: false
 
 # 🧠 Synapse — AI Study/Research OS with a 3D Mind Palace
 
-> **Live:** the FastAPI backend is hosted on this Hugging Face Space; the React
-> frontend (3D Mind Palace) is deployed on Vercel and talks to it. AI answers are
-> powered by Google Gemini (with a local-Ollama fallback for development).
+> 🔴 **Live demo:** **https://synapse-eight-ruby.vercel.app/**
+>
+> The 3D Mind Palace frontend is on Vercel; the FastAPI/RAG backend runs on
+> Hugging Face. AI answers are powered by Google Gemini (with a local-Ollama
+> fallback for development).
 
 > Upload your knowledge → an AI maps it into a **3D galaxy of concepts** → ask questions and watch the relevant nodes **pulse** while a tutor answers, grounded in *your* documents with real citations.
 
