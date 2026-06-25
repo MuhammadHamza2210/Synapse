@@ -1,0 +1,23 @@
+# --- Core (required) ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+python-dotenv==1.0.1
+numpy==2.2.1
+pypdf==5.1.0
+PyJWT==2.10.1
+
+# --- LLM ---
+# Default is FREE local Ollama (https://ollama.com) — no Python package needed,
+# it's called over HTTP. Run:  ollama pull llama3.2:1b
+# Without any LLM the app falls back to a deterministic extractive answerer.
+#
+# anthropic is only needed if you opt into the (paid) Claude provider:
+anthropic==0.42.0
+
+# --- Optional upgrades (the app auto-detects these if installed) ---
+# chromadb==0.5.23            # nicer vector store than the built-in SQLite cosine search
+# sentence-transformers==3.3.1 # real semantic embeddings instead of the local TF fallback

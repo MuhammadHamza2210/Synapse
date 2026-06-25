@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+synapse.db
+synapse.db-wal
+synapse.db-shm
+test_bg*.db*
+.chroma/
